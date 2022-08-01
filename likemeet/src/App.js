@@ -6,6 +6,9 @@ import LandingPage from './Components/LandingPage/LandingPage';
 import Login from './Components/Login/Login';
 import Logout from './Components/Logout/Logout';
 import Preferences from './Components/Preferences/Preferences';
+import { ChakraProvider, extendTheme } from "@chakra-ui/react";
+
+
 
 
 
