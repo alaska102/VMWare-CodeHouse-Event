@@ -1,5 +1,9 @@
 .App {
     font-family: "Signika", sans-serif;
+    background-color: #eae2b7;
+    background-image: linear-gradient(#eae2b7, #0c4f72);
+    min-height: 100vh;
+
   }
   
   body {

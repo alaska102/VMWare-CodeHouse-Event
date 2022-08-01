@@ -1,3 +1,4 @@
 .content {
-    background: linear-gradient(0.82deg, #224F6F 27.93%, rgba(34, 79, 111, 0) 91.68%), #E9E1BC;
+    background-color: #eae2b7;
+    background-image: linear-gradient(#eae2b7, #0c4f72);
 }
