@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Center, Box, Stack, HStack, VStack, Text, Button } from '@chakra-ui/react';
+import { Center, Box, HStack, VStack, Text, Button } from '@chakra-ui/react';
 
 export default function Preferences() {
     return(
