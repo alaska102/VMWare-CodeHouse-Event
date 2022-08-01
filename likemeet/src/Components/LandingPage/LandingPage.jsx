@@ -4,7 +4,7 @@ import './LandingPage.css';
 
 export default function LandingPage() {
     return(
-        x
+        <h1>Todo</h1>
     );
 
 }

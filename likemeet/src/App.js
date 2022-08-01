@@ -3,6 +3,8 @@ import * as React from 'react';
 import Navbar from './Components/Navbar/Navbar';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './Components/LandingPage/LandingPage';
+import Login from './Components/Login/Login';
+import Logout from './Components/Logout/Logout';
 
 
 function App() {

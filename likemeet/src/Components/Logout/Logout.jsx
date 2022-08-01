@@ -4,7 +4,7 @@ import './Logout.css';
 
 export default function Logout() {
     return(
-        x
+        <h1>Todo</h1>
     );
 
 }
