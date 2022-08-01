@@ -11,20 +11,24 @@
     position: absolute;
 }
 
+
+.nav-content {
+    cursor: pointer;
+    display: inline-flex;
+
+}
+
 .logo{
-    max-width: 92px;
+    width: 36vw;
 }
 
 .container {
-    width: 100vw;
-    margin-left: 80vw;
+    padding-left: 48vw;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 }
 
 
-.nav-content {
-    max-width: 100vw;
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-}
 

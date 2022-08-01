@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import LandingPage from './Components/LandingPage/LandingPage';
 import Login from './Components/Login/Login';
 import Logout from './Components/Logout/Logout';
+import Preferences from './Components/Preferences/Preferences';
+
 
 
 function App() {
@@ -16,8 +18,9 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<LandingPage/>}></Route> 
-          <Route path="login" element={<Login />}></Route>
-          <Route path="logout" element={<Logout />}></Route>
+          <Route path="/login" element={<Login />}></Route>
+          <Route path="/logout" element={<Logout />}></Route>
+          <Route path="/preferences" element={<Preferences />}></Route>
         </Routes>
       </div>
     </div>
